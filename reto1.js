@@ -1,8 +1,5 @@
-var opcUSR = 3;
-var opcCPU = 2;
-var opc = ["piedra", "papel", "tijeras"];   
-
 var juego = function ( opcUSR , opcCPU) {
+        var opc = ["piedra", "papel", "tijeras"];   
         //empate
         if (( opcUSR === opcCPU) && ((opcUSR >= 2) || (opcUSR <= 0) ))
         {
