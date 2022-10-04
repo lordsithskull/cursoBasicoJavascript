@@ -47,3 +47,4 @@ var juego = function ( opcUSR , opcCPU) {
             console.log("No es una opción válida, volvamos a jugar");
         }
 }
+
